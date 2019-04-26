@@ -1,0 +1,21 @@
+.CoffeeCard {
+    width: 400px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.CoffeeCard__image {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.CoffeeCard__title {
+    float: left;
+    margin: 10px 0;
+}
+
+.CoffeeCard__description {
+    float: right;
+    margin: 10px 0;
+}
