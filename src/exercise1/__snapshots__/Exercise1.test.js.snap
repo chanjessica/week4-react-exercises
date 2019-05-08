@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exercise1 renders and matches snapshot 1`] = `
+<div
+  className="CoffeeCard"
+>
+  <img
+    alt="latte"
+    className="CoffeeCard__image"
+    src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg"
+  />
+  <h3
+    className="CoffeeCard__title"
+  >
+    Latte
+  </h3>
+  <p
+    className="CoffeeCard__description"
+  >
+    Cost: $
+    4.00
+  </p>
+</div>
+`;

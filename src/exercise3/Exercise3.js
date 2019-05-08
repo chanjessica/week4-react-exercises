@@ -1,4 +1,5 @@
 import React from 'react';
+import InfoCard from './InfoCard';
 
 export default class Exercise3 extends React.Component {
     render() {
@@ -26,6 +27,10 @@ export default class Exercise3 extends React.Component {
                     <li>When passing <code>children</code> into the component, the component should display the info icon next to the children.</li>
                     <li>Import and render the <code>InfoCard</code> in <code>Exercise3.js</code></li>
                 </ol>
+                <InfoCard>
+                    <div>Some custom content</div>
+                    <strong>Here's some bolded content</strong>
+                </InfoCard>
             </div>
         )
     }

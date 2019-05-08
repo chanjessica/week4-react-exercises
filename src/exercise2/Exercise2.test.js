@@ -19,7 +19,7 @@ describe('Exercise2', () => {
 
 describe('Orchid', () => {
     it('should have the correct propTypes', () => {
-        expect(Orchid.propTypes.borderColor).toEqual(PropTypes.string);
+        expect(Orchid.propTypes.borderColor).toEqual(PropTypes.string.isRequired);
     });
 
     it('should render an image with src and alt props', () => {

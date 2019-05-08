@@ -1,4 +1,5 @@
 import React from 'react';
+import CoffeeCard from './CoffeeCard';
 
 export default class Exercise1 extends React.Component {
     render() {
@@ -12,6 +13,10 @@ export default class Exercise1 extends React.Component {
                     <li>Render this component four times in <code>Exercise1.js</code> (one for each coffee drink).</li>
                     <li>Pass in the correct props.</li>
                 </ol>
+                <CoffeeCard drinkName="latte" price={4.00} />
+                <CoffeeCard drinkName="espresso" price={4.00} />
+                <CoffeeCard drinkName="americano" price={4.00} />
+                <CoffeeCard drinkName="mocha" price={4.00} />
             </div>
         )
     }
